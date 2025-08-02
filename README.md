@@ -1,4 +1,4 @@
-VoideriaYetkiliSüre Plugin Tanıtımı - Minecraft Yetkili Takip Sistemi
+VoideriaYetkiliSüre Plugin - Minecraft Yetkili Takip Sistemi
 Plugin Adı: VoideriaYetkiliSüre
 Versiyon: 1.0.0
 Desteklenen Platformlar: Paper/Spigot 1.21+ (Folia Desteği Dahil!)
