@@ -84,7 +84,7 @@ plugins/VoideriaYetkiliSure/config.yml dosyasını düzenleyin
 ✅ Ücretsiz ve açık kaynak kodlu
 
 📞 Destek & İletişim
-Discord: https://discord.gg/voideria
+Discord: https://discord.gg/s3QXrmhrEg
 
 GitHub: [Hata Bildirimi](https://github.com/Voiderianetwork/VoideriaYetkiliSure/issues)
 
