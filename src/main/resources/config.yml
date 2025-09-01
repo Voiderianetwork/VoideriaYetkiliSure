@@ -1,0 +1,56 @@
+
+debug-mode: false
+
+# Rütbe Ayarları
+ranks:
+  denemerehber:
+    permission: "voideria.rank.denemerehber"
+    required-hours: 20
+    reward-command: "eco give {player} 10000"
+    reward-message: "&aTebrikler! &6{rank} &arütbesi için 10.000 TL kazandınız!"
+  rehber:
+    permission: "voideria.rank.rehber"
+    required-hours: 20
+    reward-command: "eco give {player} 20000"
+    reward-message: "&aTebrikler! &6{rank} &arütbesi için 20.000 TL kazandınız!"
+
+# Otomatik Sıfırlama Ayarları
+reset:
+  enabled: true
+  day-of-week: "SUNDAY"  # Pazar günü sıfırlama
+  time: "23:59"          # Saat formatı: saat:dakika
+  reset-delay-minutes: 1 # Sıfırlamadan önce bekleme süresi
+
+# Discord Entegrasyonu
+discord:
+  enabled: true
+  webhook-url: "https://discord.com/api/webhooks/örnek-webhook-url"
+  
+  # Haftalık Rapor Ayarları
+  weekly-report:
+    enabled: true
+    message: "**Haftalık Yetkili Raporu**\nToplam aktif yetkili: {total_players}"
+
+# Günlük Rapor Ayarları
+daily-report:
+  enabled: true
+  time: "18:00"  # Günlük rapor saati
+
+# Offline Oyuncu Ödül Sistemi
+offline-rewards:
+  enabled: true
+  check-interval: 60  # Dakika cinsinden kontrol aralığı (60 = 1 saat)
+
+# Süre Takip Ayarları # (değiştirmeniz önerilmez) 
+tracking:
+  update-interval: 20  # Oyuncu süre güncelleme aralığı (Her saniye kontrol eder)
+  
+# Ödül Kontrol Ayarları # (değiştirmeniz önerilmez) 
+rewards:
+  online-check-interval: 6000  # Online oyuncular için kontrol aralığı (1 saniye 20 tick aktif ayar 5 dakikada bir online kontrol gerçekleştirir)
+  offline-check-interval: 72000 # Offline oyuncular için kontrol aralığı (aktif ayar saate bir aktif olmayan yetkililerin ödül alabilmelerini kontrol eder)
+
+# Veritabanı Ayarları # (değiştirmeniz önerilmez) 
+database:
+  auto-save: true
+  save-interval: 300  # Otomatik kayıt aralığı (saniye)
